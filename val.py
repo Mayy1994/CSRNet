@@ -144,7 +144,7 @@ class MscEval(object):
 
         return mIOU
 
-def evaluate(respth='/home/mybeast/xjj/mbnet/0.7401_ori/github/model/cityscapes/pretrained/best.pth', dspth='/home/mybeast/xjj/cityscapes', checkpoint=None):
+def evaluate(respth='/home/mybeast/xjj/CSRNet/model/cityscapes/pretrained/best.pth', dspth='/home/mybeast/xjj/cityscapes', checkpoint=None):
 
     ## logger
     logger = logging.getLogger()
