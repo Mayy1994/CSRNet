@@ -3,6 +3,9 @@
 
 Cascaded Selective Resolution Network for Real-time Semantic Segmentation. 
 
+The network architecture.
+<p align="center"><img src="./figure/image1.png" width="1000" alt="" /></p>
+
 Since real-time segmentation approaches tend to exploit lightweight networks, they mainly face three problems. 
 - The poor performance in segmenting small structures like thin “poles”. 
 - The “patch-like” predictions in the interior of the dominant objects. 
@@ -10,11 +13,8 @@ Since real-time segmentation approaches tend to exploit lightweight networks, th
 To alleviate these problems, we propose a multiple-stage segmentation network, CSRNet to refine the feature maps progressively. 
 
 
-The overall process of the proposed system.
-<p align="center"><img src="./figure/image2.png" width="1000" alt="" /></p>
-
 Segmentation comparison.
-<p align="center"><img src="./figure/image1.png" width="800" alt="" /></p>
+<p align="center"><img src="./figure/image2.png" width="800" alt="" /></p>
 
 
 
@@ -32,7 +32,6 @@ The experiments are conducted on a Ubuntu 18.04 LTS PC with two NVIDIA GeForce G
 ```
 git clone git@github.com:Mayy1994/CSRNet.git
 ```
-- Create a virtual environment and install the required python packages.
 
 ## Dataset setup
 
@@ -40,4 +39,16 @@ Please download the [Cityscapes](https://www.cityscapes-dataset.com/downloads/) 
 
 
 ## Training
+- Create a virtual environment and install the required python packages.
+- Train CSRNet on Cityscapes dataset.
+```
+python train.py
+```
+
+## Evaluation
+- Download the pretrained [CSRNet](https://drive.google.com/file/d/13KUke1U-6J3r0NHiCYIYzVDuWZ00T6Vz/view?usp=sharing) and put it into $CSRNet_ROOT/model/ctyscapes/pretrained.
+- Evaluate CSRNet on Cityscapes dataset.
+```
+python val.py
+```
 
