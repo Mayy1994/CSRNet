@@ -1,0 +1,9 @@
+INFO val.py(158): 
+
+INFO val.py(159): ================================================================================
+INFO val.py(161): evaluating the model ...
+
+INFO val.py(162): setup and restore model
+INFO val.py(173): load model: /home/mybeast/xjj/mbnet/0.7401_ori/github/model/cityscapes/pretrained/best.pth
+INFO val.py(191): compute the mIOU
+INFO val.py(195): mIOU is: 0.773450
