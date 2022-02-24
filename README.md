@@ -36,6 +36,8 @@ git clone git@github.com:Mayy1994/CSRNet.git
 ## Dataset setup
 
 Please download the [Cityscapes](https://www.cityscapes-dataset.com/downloads/) dataset.
+- leftImg8bit_trainvaltest.zip (11GB)
+- gtFine_trainvaltest.zip (241MB)
 
 
 ## Training
