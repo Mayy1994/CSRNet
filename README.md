@@ -48,7 +48,7 @@ python train.py
 ```
 
 ## Evaluation
-- Download the pretrained [CSRNet](https://drive.google.com/file/d/13KUke1U-6J3r0NHiCYIYzVDuWZ00T6Vz/view?usp=sharing) and put it into $CSRNet_ROOT/model/ctyscapes/pretrained.
+- Download the pretrained [CSRNet](https://drive.google.com/file/d/1JWNg4fXsde4or-Ke19_RPB2RYTPdQWVP/view?usp=sharing) and put it into $CSRNet_ROOT/model/ctyscapes/pretrained.
 - Evaluate CSRNet on Cityscapes dataset.
 ```
 python val.py
